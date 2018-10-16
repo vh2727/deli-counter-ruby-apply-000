@@ -20,6 +20,7 @@ end
 def take_a_number(katz_deli)
   if katz_deli == []
     puts("Welcome. You are number 1.")
+    
   else
     number = katz_deli[-1] + 1
     katz_deli << number
