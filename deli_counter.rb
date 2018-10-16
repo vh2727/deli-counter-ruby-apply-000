@@ -19,20 +19,19 @@ end
 
 def take_a_number(katz_deli)
   if katz_deli == []
-    puts("Welcome. You are number 1.")
-    katz_deli << 1
+    number = 1
   else
     number = katz_deli[-1] + 1
-    katz_deli << number
-    puts("Welcome. You are number " + katz_deli[-1].to_s + ".")
   end
+  katz_deli << number
+  puts("Welcome. You are number #{katz_deli[-1]}.")
 end
 
 def now_serving(katz_deli)
   if katz_deli == []
     puts("There is nobody waiting to be served!")
   else
-    puts("Currently serving " + katz_deli[0].to_s + ".")
+    puts("Currently serving #{katz_deli[0]}.")
     katz_deli.shift
   end
 end
