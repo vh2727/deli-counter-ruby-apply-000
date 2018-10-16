@@ -32,3 +32,4 @@ def now_serving(katz_deli)
 end
 
 katz_deli = Array.new
+name = "Tom"
