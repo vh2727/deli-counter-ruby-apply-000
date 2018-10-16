@@ -24,7 +24,7 @@ def take_a_number(katz_deli)
   else
     number = katz_deli[-1] + 1
     katz_deli << number
-    puts("Welcome. You are number " + katz_deli[-1] + ".")
+    puts("Welcome. You are number " + katz_deli[-1].to_s + ".")
   end
 end
 
