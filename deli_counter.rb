@@ -21,9 +21,10 @@ def take_a_number(katz_deli)
   if katz_deli = []
     puts("Welcome. You are number 1.")
   else
-  number = katz_deli[-1] + 1
-  katz_deli << number
-  puts("Welcome. You are number " + katz_deli[-1] + ".")
+    number = katz_deli[-1] + 1
+    katz_deli << number
+    puts("Welcome. You are number " + katz_deli[-1] + ".")
+  end
 end
 
 def now_serving(katz_deli)
