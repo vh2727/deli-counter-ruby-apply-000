@@ -18,7 +18,7 @@ def line_else(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli << name
+  katz_deli[-1]
   puts("Welcome, #{name}. You are number " + katz_deli.count.to_s + " in line.")
 end
 
@@ -32,4 +32,4 @@ def now_serving(katz_deli)
 end
 
 katz_deli = Array.new
-name = "Tom"
+number 
