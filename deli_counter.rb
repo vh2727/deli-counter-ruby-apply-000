@@ -17,9 +17,10 @@ def line_else(katz_deli)
   new_array
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli[-1]
-  puts("Welcome, #{name}. You are number " + katz_deli.count.to_s + " in line.")
+def take_a_number(katz_deli)
+  number = katz_deli[-1] + 1
+  katz_deli << number
+  puts("Welcome. You are number " + katz_deli[-1] + ".")
 end
 
 def now_serving(katz_deli)
